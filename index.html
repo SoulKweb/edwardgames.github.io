@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edwards Unblocked Games - Ultimate Gaming Hub</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta name="description" content="The ultimate unblocked games platform for students and gamers">
+  <link rel="preload" href="/gAMELOGO.png" as="image">
+  <link rel="icon" type="image/png" href="/gAMELOGO.png">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-content">
+        <img src="/gAMELOGO.png" alt="Game Controller Logo" class="game-logo" width="80" height="80">
+        <h1 class="centered-title"><span class="edwards-text">Edwards</span> Unblocked Games</h1>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://games.example.com/action">
+              <img src="/action-genre.svg" alt="Action" class="genre-icon" width="24" height="24">
+              Action
+            </a>
+          </li>
+          <li>
+            <a href="https://games.example.com/puzzle">
+              <img src="/puzzle-genre.svg" alt="Puzzle" class="genre-icon" width="24" height="24">
+              Puzzle
+            </a>
+          </li>
+          <li>
+            <a href="https://games.example.com/strategy">
+              <img src="/strategy-genre.svg" alt="Strategy" class="genre-icon" width="24" height="24">
+              Strategy
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <section class="featured-games">
+        <div class="section-header">
+          <h2>Top Unblocked Games</h2>
+          <input type="text" id="game-search" class="game-search" placeholder="🔍 Search games...">
+        </div>
+        <div class="game-grid" id="game-grid">
+          <div class="game-card" data-name="Minecraft">
+            <h3>Minecraft</h3>
+            <button onclick="loadGame('https://eaglercraft.org/')" aria-label="Play Minecraft">Play Now</button>
+          </div>
+          <div class="game-card" data-name="Block Blast">
+            <h3>Block Blast</h3>
+            <button onclick="loadGame('https://coolubg.github.io/games/block-blast.html')" aria-label="Play Block Blast">Play Now</button>
+          </div>
+          <div class="game-card" data-name="Baldi's Basics">
+            <h3>Baldi's Basics</h3>
+            <button onclick="loadGame('https://gnhustgames.github.io/baldibasic/')" aria-label="Play Baldi's Basics">Play Now</button>
+          </div>
+          <div class="game-card" data-name="Run 3">
+            <h3>Run 3</h3>
+            <button onclick="loadGame('https://run3.io/')" aria-label="Play Run 3">Play Now</button>
+          </div>
+          <div class="game-card" data-name="Slope">
+            <h3>Slope</h3>
+            <button onclick="loadGame('https://slopegame.io/')" aria-label="Play Slope">Play Now</button>
+          </div>
+          <div class="game-card" data-name="Paper.io">
+            <h3>Paper.io</h3>
+            <button onclick="loadGame('https://paper-io.com/')" aria-label="Play Paper.io">Play Now</button>
+          </div>
+          <div class="game-card" data-name="Cookie Clicker">
+            <h3>Cookie Clicker</h3>
+            <button onclick="loadGame('https://orteil.dashnet.org/cookieclicker/')" aria-label="Play Cookie Clicker">Play Now</button>
+          </div>
+          <div class="game-card" data-name="Among Us">
+            <h3>Among Us</h3>
+            <button onclick="loadGame('https://amongusplay.online/')" aria-label="Play Among Us">Play Now</button>
+          </div>
+          <div class="game-card" data-name="Subway Surfers">
+            <h3>Subway Surfers</h3>
+            <button onclick="loadGame('https://subwaysurfersunblocked.io/')" aria-label="Play Subway Surfers">Play Now</button>
+          </div>
+          <div class="game-card" data-name="Five Nights at Freddies">
+            <h3>Five Nights at Freddies</h3>
+            <button onclick="loadGame('https://education76.github.io/g7/five-nights-at-freddys/')" aria-label="Play Five Nights at Freddies">Play Now</button>
+          </div>
+          <div class="game-card" data-name="Geometry Dash">
+            <h3>Geometry Dash</h3>
+            <button onclick="loadGame('https://geometry-dash.io/')" aria-label="Play Geometry Dash">Play Now</button>
+          </div>
+          <div class="game-card" data-name="8 Ball Pool">
+            <h3>8 Ball Pool</h3>
+            <button onclick="loadGame('https://education76.github.io/g8/8-ball-pool/')" aria-label="Play 8 Ball Pool">Play Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p> 2024 Edwards Unblocked Games</p>
+        <small>All games are school-friendly and safe for students</small>
+        <div class="footer-stats">
+          <div class="online-users">
+            <i class="fas fa-users"></i> Online Users: <span id="user-count">0</span>
+          </div>
+          <div class="total-games">
+            <i class="fas fa-gamepad"></i> Total Games: <span id="game-count">12</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
